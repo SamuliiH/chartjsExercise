@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <style>
+
+      body{
+        background-color:rgba(31, 177, 214, 0.21);
+      }
+      button{
+        background-color: #84d9aa;
+        color: #18261f;
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+        box-shadow: 2px 5px #637d70;
+      }
+      #innerDiv{
+        margin-left: 150px;
+      }
+
+      #outerDiv{
+        width:1000px;
+        height:800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chart.js</h1>
+    <div id="outerDiv">
+      <div id="innerDiv">
+        <button onclick="addCar(0)">Ford</button>
+        <button onclick="addCar(1)">Opel</button>
+        <button onclick="addCar(2)">Toyota</button>
+        <button onclick="nollaa()">Nollaa</button>
+        <h1>Autolaskuri</h1>
+      </div>
+        <canvas id="myChart"></canvas>
+    </div>
+  </body>
+  <script type="text/javascript" src="./tehtava3.js"></script>
+</html>
